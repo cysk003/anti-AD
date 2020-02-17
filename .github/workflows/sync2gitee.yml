@@ -30,7 +30,7 @@ jobs:
       run: |
         cd ~/gitee
         git config --local user.email "${{ secrets.GITEE_EMAIL }}"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "gently"
         git add .
         git commit -m "pull newest list." -a
         git push -u origin master
