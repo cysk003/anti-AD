@@ -50,6 +50,11 @@ return array(
     'tanx.com' => 0, //饿了么店铺异常
     'promotion.aliyun.com' => 0, //阿里云控制台
     'rarbg.to' => 0, //BT站
+    'gsp0.baidu.com' => 0, //百度贴吧相关
+    'gsp1.baidu.com' => 0, //百度贴吧相关
+    'gsp2.baidu.com' => 0, //百度贴吧相关
+    'gsp3.baidu.com' => 0, //百度贴吧相关
+    'c0.ifengimg.com' => 0, //凤凰网视频异常
 
 
     'herokuapp.com' => -1,
@@ -119,5 +124,6 @@ return array(
 
 
     'cpm.cm.kankan.com' => -1, //-1 失效本条规则，保持现状，即不加白本域名
+    'deliver.ifeng.com' => -1, //保留的dead-hosts，为了缩减其子域名
 
 );
