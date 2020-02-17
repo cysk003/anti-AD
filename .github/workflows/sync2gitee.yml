@@ -27,6 +27,7 @@ jobs:
     - name: Commit files
       run: |
         cd ~/gitee
+        git config --global credential.helper store
         git config --local user.email "${{ secrets.GITEE_EMAIL }}"
         git config --local user.name "gently"
         git add .
